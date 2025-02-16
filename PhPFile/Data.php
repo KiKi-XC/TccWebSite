@@ -1,7 +1,7 @@
 <?php
-$host = "tcc-mc.com";
-$port = "28801";
-$name = '1T2C-Server';
+$host = "yourhost";
+$port = "yourport";
+$name = 'yourname';
 define('MQ_SERVER_ADDR', $host);
 define('MQ_SERVER_PORT', $port);
 define('MQ_TIMEOUT', 1);
