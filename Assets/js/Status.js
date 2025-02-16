@@ -1,5 +1,5 @@
 function fetchServerStatus() {
-    fetch('http://218.93.206.42:8000/mcstatus/')
+    fetch('http://youhost:8000/mcstatus/')
         .then(response => response.json())
         .then(data => {
             document.getElementById('onlinePlayers').textContent = data.onlinePlayers+"/200人";
